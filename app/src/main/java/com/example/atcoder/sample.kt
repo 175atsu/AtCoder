@@ -2,13 +2,7 @@ package com.example.atcoder
 
 import java.util.Scanner
 fun main(args: Array<String>){
-    val sc = Scanner(System.`in`) //Scannerのインスタンスを作成
 
-    val s: String? = readLine() //入力を行で取得
-    val i = sc.nextLine().toInt() //Int型に変換
-    val j: Int = sc.nextInt()
-
-    println(i + j)
 }
 
 class sample() {
