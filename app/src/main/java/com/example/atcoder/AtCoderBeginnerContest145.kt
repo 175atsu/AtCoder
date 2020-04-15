@@ -30,14 +30,18 @@ fun main(args: Array<String>){
     val r = readLine()!!.toInt()
     val s = readLine()!!.split("").filter { it != ""}
     if (r % 2 == 0) {
-        var i = 0
-        for ( i in i..r/2-1) {
-            if (s[i] != s[r/2+i]) {
-                count ++
+        if (s.size == r) {
+            var i = 0
+            for ( i in i..r/2-1) {
+                if (s[i] != s[r/2+i]) {
+                    count ++
+                }
             }
-        }
-        if (count == 0) {
-            print("YES")
+            if (count == 0) {
+                print("YES")
+            } else {
+                print("NO")
+            }
         } else {
             print("NO")
         }
