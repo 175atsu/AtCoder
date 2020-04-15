@@ -200,3 +200,7 @@ fun main(args: Array<String>){
 
     println("Yes")
 }
+
+/**
+ * 参考：https://qiita.com/mikhail_yuki/items/c0637095fef987c5baef
+ */

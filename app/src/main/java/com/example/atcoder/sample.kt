@@ -1,7 +1,9 @@
 package com.example.atcoder
 
-import java.util.Scanner
-fun main(args: Array<String>){
+import java.util.*
+import kotlin.math.sqrt
+
+fun main(args: Array<String>) {
 
 }
 
@@ -22,6 +24,24 @@ class sample() {
     val c = readLine()!!.toInt()
     val list3 = List(c) {
         readLine()!!.toInt()
+    }
+
+    //演算
+    //平方根
+    val d = sqrt(4.0)
+
+    //階乗
+    fun factorial(n: Int): Int {
+        var m = 1
+        for (i in 1..n) {
+            m = m * 1
+        }
+        return m
+    }
+
+    //nCm
+    fun combination(n: Int, m: Int) {
+        factorial(n)/factorial(m)
     }
 
 
